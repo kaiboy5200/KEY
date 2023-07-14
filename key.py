@@ -40,20 +40,19 @@ if __name__=="__main__":
     ltime=0
     ntime=0
     time.sleep(5)
-    print(PilImage(195, 1124))
+    print(PilImage(195, 1103))
 
     while 1:
 
-        if PilImage(195, 1124)==(44, 44, 45):
+        if PilImage(195, 1103)==(36, 38, 36):
             win32api.keybd_event(81,0,0,0) 
             win32api.keybd_event(81,0,win32con.KEYEVENTF_KEYUP,0)          
             jisu += 1
             ntime = time.time()-ltime
             ltime = time.time()
-            print("刷了第%d次,獲得%d經驗,用時%d秒" % (jisu,jisu*82,ntime))
             pass
 
-        time.sleep(1)
+        time.sleep(0.1)
 
 
 

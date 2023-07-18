@@ -61,7 +61,7 @@ if __name__=="__main__":
             jisu += 1
             ntime = time.time()-ltime
             ltime = time.time()
-        elif PilImage(594, 1337)==(234, 178, 80):
+        elif PilImage(594, 1337)==(95, 155, 198):
             win32api.keybd_event(87,0,0,0) 
             win32api.keybd_event(87,0,win32con.KEYEVENTF_KEYUP,0)   
             jisu += 1
@@ -79,7 +79,7 @@ if __name__=="__main__":
             jisu += 1
             ntime = time.time()-ltime
             ltime = time.time()
-        elif PilImage(594, 1337)==(234, 178, 80):
+        elif PilImage(594, 1337)==(95, 155, 198):
             win32api.keybd_event(87,0,0,0) 
             win32api.keybd_event(87,0,win32con.KEYEVENTF_KEYUP,0)   
             jisu += 1
